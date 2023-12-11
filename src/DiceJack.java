@@ -34,12 +34,12 @@ public class DiceJack {
 		System.out.println("Your sum of number is :"+sumOfNumbers+"\nComputer sum of number is :"+sumRollDice);
 		
 		
-if(userWon(sumOfNumbers,sumRollDice)) {
-	System.out.println("Congrats you won!");
-}
-else {
-	System.out.println("Better luck next time!");
-}
+		if(userWon(sumOfNumbers,sumRollDice)) {
+			System.out.println("Congrats you won!");
+		}
+		else {
+			System.out.println("Better luck next time!");
+		}
 
 	}
 
