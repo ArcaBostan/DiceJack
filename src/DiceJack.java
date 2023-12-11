@@ -23,10 +23,6 @@ public class DiceJack {
 		int number3 = scanner.nextInt();
 		
 		if(isLessThan1(number1,number2,number3) || (isMoreThan6(number1,number2,number3))) {
-			
-			
-		
-			
 			System.out.println("You have enter an invaled number");
 			System.exit(0);
 		}
